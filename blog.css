@@ -1,13 +1,30 @@
-/* html*/
-html {
-    background-color: silver;
+body {
+  background-image: linear-gradient();
+  margin: 0;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 500px;
 }
-/*title*/
+
 header h1 {
-    color: crimson;
+  font-style: initial;
+  font-size-adjust: none;
+  font-variant: normal;
 }
-header p {
-    color: rgb(22, 11, 10);
+
+main h2,h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-variant: small-caps;
 }
+
+section:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+
+
 
 
