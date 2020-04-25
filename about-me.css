@@ -4,27 +4,39 @@ img {
 }
 
 body {
-  background-image: linear-gradient(to left, white 0% 50%, rgba(17, 236, 211, 0.247) 50% 80%, rgba(44, 247, 230, 0.315) 80% 100%);
-  border: 1px solid;
-  box-sizing: border-box;
-  width: 50%;
-  height: 70%;
+  box-sizing: content-box;
 }
 
-footer ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
+@media(max-width: 640px) {
+  body {
+    width: 100%;
+  }
 }
 
-nav ul {
-  margin: 5rem;
-  margin-inline-start: -4rem;
+@media(max-width: 230px) {
+  img {
+    width: 230px;
 }
- 
+}
 
-.icon[href^="https://web.facebook"] {
+.link {
+    background-color: dimgray;
+    border: 1px solid beige;
+    color: beige;
+    padding: 5px;
+    text-decoration: none;
+    margin-block-end: 5px;
+}
+
+.link:hover {
+  background-color: silver;
+  color: beige;
+  transition: 1s;
+  border-radius: 40%;
+}
+
+
+/*.icon[href^="https://web.facebook"] {
   background-image: url(../images/icon-facebook.png);
 
 }

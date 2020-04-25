@@ -1,0 +1,27 @@
+.rainbow {
+       background: radial-gradient(ellipse at bottom, indigo, blue, green, yellow, transparent),
+        radial-gradient(ellipse at top, indigo, red, transparent);
+        opacity: 1;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  color: deeppink;
+  font-size: xx-large;
+  font-style: oblique;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rainbow:hover {
+  transform: scale(0.1);
+  transition: 5s;
+  color: white;
+}
+
+
