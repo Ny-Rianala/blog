@@ -35,13 +35,3 @@ body {
   border-radius: 40%;
 }
 
-
-/*.icon[href^="https://web.facebook"] {
-  background-image: url(../images/icon-facebook.png);
-
-}
-
-.icon[href^="https://github"] {
-  background-image: url(../images/icon-github.png);
-}
-

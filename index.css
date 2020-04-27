@@ -34,7 +34,6 @@
   position: absolute;
   display: none;
   background-color: white;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
 }
 
 .dropdown_4 ul {
@@ -56,6 +55,7 @@
   background-color: hotpink;
   color: white;
 }
+
 .dropdown_3::before {
   transition: border .3s;
   border-color: currentColor transparent transparent transparent;
